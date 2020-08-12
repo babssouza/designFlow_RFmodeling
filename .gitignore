@@ -1,0 +1,20 @@
+V1I1/*.log
+V1I1/*.txt
+V1I1/Competition and Similar Products/
+V1I1/Datasheets/
+V1I1/Design Guides/
+V1I1/Development Boards/
+V1I1/Design Files/signoise.run/
+V1I1/Design Files/*.BOM
+V1I1/Design Files/*.dml
+V1I1/Design Files/Netlist/*.log
+V1I1/Design Files/hw_reg_block-PSpiceFiles/
+V1I1/Design Files/Netlist/*.txt
+V1I1/Design Files/Layout/signoise.run/
+V1I1/Design Files/Layout/*.log
+V1I1/Design Files/Layout/*.txt
+V1I1/Design Files/Layout/*.color
+V1I1/Design Files/Layout/*.dml
+V1I1/Design Files/Layout/*.tag
+V1I1/Design Files/Layout/*.jrl
+V1I1/Design Files/Layout/*.lst
