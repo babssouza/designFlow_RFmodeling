@@ -1,0 +1,26 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Wirebond Editor                                                  )
+(                                                                     )
+(    Drawing          : tstFixture_S2-LP.mcm                          )
+(    Software Version : 17.2S049                                      )
+(    Date/Time        : Fri Aug 21 09:14:31 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Beginning wirebond editing session: Fri Aug 21 09:14:31 2020
+Starting to add wirebond(s).
+  Added wirebond from (2.782 1.745) to (3.7035 1.7459).
+    Wire profile: JEDEC5, Net: VDDASYNTH
+    Bond finger: <No Label>, padstack: 100X200
+  Added wirebond from (2.782 1.618) to (3.7035 1.5522).
+    Wire profile: JEDEC5, Net: VDDASYNTH
+    Bond finger: <No Label>, padstack: 100X200
+  Added wirebond from (2.782 1.81) to (3.38 1.8457).
+    Wire profile: JEDEC5, Net: GND
+    Bond finger: <No Label>, padstack: WB_TACKPOINT
+  Added wirebond from (2.782 1.981) to (3.3801 1.946).
+    Wire profile: JEDEC5, Net: GND
+    Bond finger: <No Label>, padstack: WB_TACKPOINT
+End wirebond editing session: Fri Aug 21 09:23:43 2020

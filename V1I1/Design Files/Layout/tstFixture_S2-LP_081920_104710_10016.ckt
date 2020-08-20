@@ -1,0 +1,41 @@
+.SUBCKT		tstFixture_S2-LP_081920_104710_10016
++			Port1_1
++			Port1_2
++			Port2_3
++			Port2_4
+*The following is the Cadence MCP(model connection protocol) Section
+***********************************
+*[MCP Begin]
+*[MCP Ver] 1.1
+*[MCP Source] Cadence Design Systems, Inc. PowerSI 16.0.0.02091.0   000 8/19/2020
+*
+***********************************
+*
+*[REM]The following is the info for non-circuit ports
+*[REM]**********************************
+*[Connection] general unnamed 4
+*[Power Nets]
+*[Ground Nets]
+*Port1_N_2	Port1_2	GND	0.1758930	0.0640180
+*Port2_N_4	Port2_4	GND	0.2206560	0.0639130
+*[Signal Nets]
+*Port1_P_1	Port1_1	TX	0.1772270	0.0640010
+*Port2_P_3	Port2_3	TX	0.2191270	0.0639370
+*
+*[MCP End]
+*
+*This concludes the MCP section
+*Define the S element, the Model file is output from BNP
+
+.MODEL   Spara   S		
++		BNPFILE = "tstFixture_S2-LP_081920_104710_10016.bnp"
+
+S		
++			Port1_1	Port1_2
++			Port2_3	Port2_4
++			MNAME = Spara
+
+*
+.ENDS
+*
+*

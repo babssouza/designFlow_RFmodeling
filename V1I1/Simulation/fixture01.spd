@@ -1,0 +1,713 @@
+Title - PowerSI file for version 2000.18
+* PowerSI 16.0.0.02091.0   000
+
+* Please do NOT edit special void criteria manually.
+.DoglegHoleThreshold = 0.001500
+.ThermalHoleThreshold = 0.001500
+.SmallHoleThreshold = 0.001500
+.ViaHoleThreshold = 0.001500
+.AutoDetectAntipad = Yes
+.DropShapesOfUnselectedNets
+
+* Transient description line
+.Transient FinalTime = 0.048332ns Timesteps = 100 Viewstep = 1
++          DC = Yes
++          Window = Yes
++          PlaneSkinEffect = Yes
++          TransmissionLineMetalLoss = No
++          NonTotalReflectionBoundary = Yes
++          DielectricLossDispersion = No
++          InterPlaneCoupling = No
++          ViaCapacitanceActivated = Yes
++          CoplanarLineModeling = No
++          ShapeGapModeling = No
++          AddFloatingPlaneIfNeeded = No
++          AutoRLGCEnabled = No
++          PassivityCheck = No
++          Fmax_TransmissionLine = 5.00GHz
++          TransmissionLineMode = No
+
+* External Circuit Solver description lines
+
+* Mesh description line
+.Mesh Pkg = $Package Mesh_X = 200 Mesh_Y = 200
+
+* Global Temperature description line
+
+* External Material File description line
+
+* Package description lines
+.Package $Package Trace_Combine = Yes Via_Conductivity_Default = 5.8e+007
+.Stackups
+.EndStackups
+
+* Shape description lines
+.Shape Signal$TOPpkgshape
+Box1::GND+ 0.000000e+000mm 1.025000e+000mm 4.460000e+001mm 8.000000e+000mm
+Box2::GND+ 0.000000e+000mm -9.025000e+000mm 4.460000e+001mm 8.000000e+000mm
+Box3::OUT+ 0.000000e+000mm -8.250000e-001mm 4.460000e+001mm 1.650000e+000mm
+.EndShape
+
+.Shape Signal$BOTTOMpkgshape
+Box4::GND+ 0.000000e+000mm -9.025000e+000mm 4.460000e+001mm 1.805000e+001mm
+.EndShape
+
+UnionizedShape = 985ECDA4-4EF31142-D01E5583-F8C956AD
+
+* Cutting Boundary description lines
+
+* Layer description lines
+Signal$TOP Thickness = 3.500000e+001u Material = COPPER Width = 7.500000e+001u Color = 0x26FF26 Permittivity = 4.500000e+000 LossTangent = 0.000000e+000
+Medium$41 Thickness = 8.130000e+002u Conductivity = 0.000000e+000 Material = FR-4
+Signal$BOTTOM Thickness = 3.500000e+001u Material = COPPER Width = 7.500000e+001u Color = yellow Permittivity = 4.500000e+000 LossTangent = 0.000000e+000
+Patch01 Shape = Signal$TOPpkgshape Layer = Signal$TOP
+Patch02 Shape = Signal$BOTTOMpkgshape Layer = Signal$BOTTOM
+.TrapezoidalTraceAngle Layer = Signal$TOP Angle = 9.000000e+001
+.TrapezoidalTraceAngle Layer = Signal$BOTTOM Angle = 9.000000e+001
+
+* Conformal Layer description lines
+
+* Node and Trace description lines
+Node1::OUT X = 4.455000e+001mm Y = 0.000000e+000mm Layer = Signal$TOP PadStack = SHAPE_PAD
+Node2!!2::OUT X = 4.125000e+001mm Y = 0.000000e+000mm Layer = Signal$TOP PadStack = CONNECTOR_RF_SMA_SIGNAL AbsoluteRotation = 90.000000
+Node3::OUT X = 5.000000e-002mm Y = 0.000000e+000mm Layer = Signal$TOP PadStack = SHAPE_PAD
+Node6::GND X = 4.397200e+001mm Y = 4.925000e+000mm Layer = Signal$TOP
+Node8::GND X = 4.397200e+001mm Y = 3.825000e+000mm Layer = Signal$TOP
+Node10::GND X = 4.397200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node12::GND X = 4.397200e+001mm Y = -3.825000e+000mm Layer = Signal$TOP
+Node14::GND X = 4.397200e+001mm Y = -4.925000e+000mm Layer = Signal$TOP
+Node16::GND X = 4.287200e+001mm Y = -4.925000e+000mm Layer = Signal$TOP
+Node18::GND X = 4.177200e+001mm Y = -4.925000e+000mm Layer = Signal$TOP
+Node20::GND X = 4.067200e+001mm Y = -4.925000e+000mm Layer = Signal$TOP
+Node22::GND X = 4.067200e+001mm Y = 4.925000e+000mm Layer = Signal$TOP
+Node24::GND X = 4.177200e+001mm Y = 4.925000e+000mm Layer = Signal$TOP
+Node26::GND X = 4.287200e+001mm Y = 4.925000e+000mm Layer = Signal$TOP
+Node28::GND X = 4.287200e+001mm Y = -3.825000e+000mm Layer = Signal$TOP
+Node30::GND X = 4.177200e+001mm Y = -3.825000e+000mm Layer = Signal$TOP
+Node32::GND X = 4.067200e+001mm Y = -3.825000e+000mm Layer = Signal$TOP
+Node34::GND X = 3.957200e+001mm Y = -3.825000e+000mm Layer = Signal$TOP
+Node36::GND X = 3.957200e+001mm Y = 3.825000e+000mm Layer = Signal$TOP
+Node38::GND X = 4.067200e+001mm Y = 3.825000e+000mm Layer = Signal$TOP
+Node40::GND X = 4.177200e+001mm Y = 3.825000e+000mm Layer = Signal$TOP
+Node42::GND X = 4.287200e+001mm Y = 3.825000e+000mm Layer = Signal$TOP
+Node44::GND X = 4.287200e+001mm Y = -2.725000e+000mm Layer = Signal$TOP
+Node46::GND X = 4.177200e+001mm Y = -2.725000e+000mm Layer = Signal$TOP
+Node48::GND X = 4.067200e+001mm Y = -2.725000e+000mm Layer = Signal$TOP
+Node50::GND X = 3.957200e+001mm Y = -2.725000e+000mm Layer = Signal$TOP
+Node52::GND X = 3.847200e+001mm Y = -2.725000e+000mm Layer = Signal$TOP
+Node54::GND X = 3.847200e+001mm Y = 2.725000e+000mm Layer = Signal$TOP
+Node56::GND X = 3.957200e+001mm Y = 2.725000e+000mm Layer = Signal$TOP
+Node58::GND X = 4.067200e+001mm Y = 2.725000e+000mm Layer = Signal$TOP
+Node60::GND X = 4.177200e+001mm Y = 2.725000e+000mm Layer = Signal$TOP
+Node62::GND X = 4.287200e+001mm Y = 2.725000e+000mm Layer = Signal$TOP
+Node64::GND X = 4.287200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node66::GND X = 4.177200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node68::GND X = 4.067200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node70::GND X = 3.957200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node72::GND X = 3.847200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node74::GND X = 3.737200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node76::GND X = 3.627200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node78::GND X = 3.517200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node80::GND X = 3.407200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node82::GND X = 3.297200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node84::GND X = 3.187200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node86::GND X = 3.077200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node88::GND X = 2.967200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node90::GND X = 2.857200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node92::GND X = 2.747200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node94::GND X = 2.637200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node96::GND X = 2.527200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node98::GND X = 2.417200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node100::GND X = 2.307200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node102::GND X = 2.197200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node104::GND X = 2.087200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node106::GND X = 1.977200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node108::GND X = 1.867200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node110::GND X = 1.757200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node112::GND X = 1.647200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node114::GND X = 1.537200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node116::GND X = 1.427200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node118::GND X = 1.317200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node120::GND X = 1.207200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node122::GND X = 1.097200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node124::GND X = 9.872000e+000mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node126::GND X = 8.772000e+000mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node128::GND X = 7.672000e+000mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node130::GND X = 6.572000e+000mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node132::GND X = 5.472000e+000mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node134::GND X = 4.372000e+000mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node136::GND X = 3.272000e+000mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node138::GND X = 2.172000e+000mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node140::GND X = 1.072000e+000mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node142!!1::GND X = 4.160000e+001mm Y = -4.250000e+000mm Layer = Signal$TOP PadStack = CONNECTOR_RF_SMA_GND AbsoluteRotation = 90.000000
+Node143::GND X = 1.072000e+000mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node145::GND X = 2.172000e+000mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node147::GND X = 3.272000e+000mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node149::GND X = 4.372000e+000mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node151::GND X = 5.472000e+000mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node153::GND X = 6.572000e+000mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node155::GND X = 7.672000e+000mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node157::GND X = 8.772000e+000mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node159::GND X = 9.872000e+000mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node161::GND X = 1.097200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node163::GND X = 1.207200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node165::GND X = 1.317200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node167::GND X = 1.427200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node169::GND X = 1.537200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node171::GND X = 1.647200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node173::GND X = 1.757200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node175::GND X = 1.867200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node177::GND X = 1.977200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node179::GND X = 2.087200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node181::GND X = 2.197200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node183::GND X = 2.307200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node185::GND X = 2.417200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node187::GND X = 2.527200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node189::GND X = 2.637200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node191::GND X = 2.747200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node193::GND X = 2.857200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node195::GND X = 2.967200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node197::GND X = 3.077200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node199::GND X = 3.187200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node201::GND X = 3.297200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node203::GND X = 3.407200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node205::GND X = 3.517200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node207::GND X = 3.627200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node209::GND X = 3.737200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node211::GND X = 3.847200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node213::GND X = 3.957200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node215::GND X = 4.067200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node217::GND X = 4.177200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node219::GND X = 4.287200e+001mm Y = 1.625000e+000mm Layer = Signal$TOP
+Node221!!3::GND X = 4.160000e+001mm Y = 4.250000e+000mm Layer = Signal$TOP PadStack = CONNECTOR_RF_SMA_GND AbsoluteRotation = 90.000000
+Node222 X = 4.397200e+001mm Y = 2.725000e+000mm Layer = Signal$TOP
+Node224 X = 4.397200e+001mm Y = -1.625000e+000mm Layer = Signal$TOP
+Node226 X = 4.397200e+001mm Y = -2.725000e+000mm Layer = Signal$TOP
+
+Node4::GND X = 4.455000e+001mm Y = 0.000000e+000mm Layer = Signal$BOTTOM PadStack = SHAPE_PAD1
+Node5::GND X = 5.000000e-002mm Y = 0.000000e+000mm Layer = Signal$BOTTOM PadStack = SHAPE_PAD1
+Node7::GND X = 4.397200e+001mm Y = 4.925000e+000mm Layer = Signal$BOTTOM
+Node9::GND X = 4.397200e+001mm Y = 3.825000e+000mm Layer = Signal$BOTTOM
+Node11::GND X = 4.397200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node13::GND X = 4.397200e+001mm Y = -3.825000e+000mm Layer = Signal$BOTTOM
+Node15::GND X = 4.397200e+001mm Y = -4.925000e+000mm Layer = Signal$BOTTOM
+Node17::GND X = 4.287200e+001mm Y = -4.925000e+000mm Layer = Signal$BOTTOM
+Node19::GND X = 4.177200e+001mm Y = -4.925000e+000mm Layer = Signal$BOTTOM
+Node21::GND X = 4.067200e+001mm Y = -4.925000e+000mm Layer = Signal$BOTTOM
+Node23::GND X = 4.067200e+001mm Y = 4.925000e+000mm Layer = Signal$BOTTOM
+Node25::GND X = 4.177200e+001mm Y = 4.925000e+000mm Layer = Signal$BOTTOM
+Node27::GND X = 4.287200e+001mm Y = 4.925000e+000mm Layer = Signal$BOTTOM
+Node29::GND X = 4.287200e+001mm Y = -3.825000e+000mm Layer = Signal$BOTTOM
+Node31::GND X = 4.177200e+001mm Y = -3.825000e+000mm Layer = Signal$BOTTOM
+Node33::GND X = 4.067200e+001mm Y = -3.825000e+000mm Layer = Signal$BOTTOM
+Node35::GND X = 3.957200e+001mm Y = -3.825000e+000mm Layer = Signal$BOTTOM
+Node37::GND X = 3.957200e+001mm Y = 3.825000e+000mm Layer = Signal$BOTTOM
+Node39::GND X = 4.067200e+001mm Y = 3.825000e+000mm Layer = Signal$BOTTOM
+Node41::GND X = 4.177200e+001mm Y = 3.825000e+000mm Layer = Signal$BOTTOM
+Node43::GND X = 4.287200e+001mm Y = 3.825000e+000mm Layer = Signal$BOTTOM
+Node45::GND X = 4.287200e+001mm Y = -2.725000e+000mm Layer = Signal$BOTTOM
+Node47::GND X = 4.177200e+001mm Y = -2.725000e+000mm Layer = Signal$BOTTOM
+Node49::GND X = 4.067200e+001mm Y = -2.725000e+000mm Layer = Signal$BOTTOM
+Node51::GND X = 3.957200e+001mm Y = -2.725000e+000mm Layer = Signal$BOTTOM
+Node53::GND X = 3.847200e+001mm Y = -2.725000e+000mm Layer = Signal$BOTTOM
+Node55::GND X = 3.847200e+001mm Y = 2.725000e+000mm Layer = Signal$BOTTOM
+Node57::GND X = 3.957200e+001mm Y = 2.725000e+000mm Layer = Signal$BOTTOM
+Node59::GND X = 4.067200e+001mm Y = 2.725000e+000mm Layer = Signal$BOTTOM
+Node61::GND X = 4.177200e+001mm Y = 2.725000e+000mm Layer = Signal$BOTTOM
+Node63::GND X = 4.287200e+001mm Y = 2.725000e+000mm Layer = Signal$BOTTOM
+Node65::GND X = 4.287200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node67::GND X = 4.177200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node69::GND X = 4.067200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node71::GND X = 3.957200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node73::GND X = 3.847200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node75::GND X = 3.737200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node77::GND X = 3.627200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node79::GND X = 3.517200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node81::GND X = 3.407200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node83::GND X = 3.297200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node85::GND X = 3.187200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node87::GND X = 3.077200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node89::GND X = 2.967200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node91::GND X = 2.857200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node93::GND X = 2.747200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node95::GND X = 2.637200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node97::GND X = 2.527200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node99::GND X = 2.417200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node101::GND X = 2.307200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node103::GND X = 2.197200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node105::GND X = 2.087200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node107::GND X = 1.977200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node109::GND X = 1.867200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node111::GND X = 1.757200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node113::GND X = 1.647200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node115::GND X = 1.537200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node117::GND X = 1.427200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node119::GND X = 1.317200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node121::GND X = 1.207200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node123::GND X = 1.097200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node125::GND X = 9.872000e+000mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node127::GND X = 8.772000e+000mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node129::GND X = 7.672000e+000mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node131::GND X = 6.572000e+000mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node133::GND X = 5.472000e+000mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node135::GND X = 4.372000e+000mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node137::GND X = 3.272000e+000mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node139::GND X = 2.172000e+000mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node141::GND X = 1.072000e+000mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node144::GND X = 1.072000e+000mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node146::GND X = 2.172000e+000mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node148::GND X = 3.272000e+000mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node150::GND X = 4.372000e+000mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node152::GND X = 5.472000e+000mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node154::GND X = 6.572000e+000mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node156::GND X = 7.672000e+000mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node158::GND X = 8.772000e+000mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node160::GND X = 9.872000e+000mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node162::GND X = 1.097200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node164::GND X = 1.207200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node166::GND X = 1.317200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node168::GND X = 1.427200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node170::GND X = 1.537200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node172::GND X = 1.647200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node174::GND X = 1.757200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node176::GND X = 1.867200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node178::GND X = 1.977200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node180::GND X = 2.087200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node182::GND X = 2.197200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node184::GND X = 2.307200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node186::GND X = 2.417200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node188::GND X = 2.527200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node190::GND X = 2.637200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node192::GND X = 2.747200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node194::GND X = 2.857200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node196::GND X = 2.967200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node198::GND X = 3.077200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node200::GND X = 3.187200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node202::GND X = 3.297200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node204::GND X = 3.407200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node206::GND X = 3.517200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node208::GND X = 3.627200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node210::GND X = 3.737200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node212::GND X = 3.847200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node214::GND X = 3.957200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node216::GND X = 4.067200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node218::GND X = 4.177200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node220::GND X = 4.287200e+001mm Y = 1.625000e+000mm Layer = Signal$BOTTOM
+Node223 X = 4.397200e+001mm Y = 2.725000e+000mm Layer = Signal$BOTTOM
+Node225 X = 4.397200e+001mm Y = -1.625000e+000mm Layer = Signal$BOTTOM
+Node227 X = 4.397200e+001mm Y = -2.725000e+000mm Layer = Signal$BOTTOM
+
+ClippedTrace = 1FA3FFAC-BA6AC0F9-E59D4057-9A82EE32
+
+* Via description lines
+Via100::GND UpperNode = Node205::GND LowerNode = Node206::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via101::GND UpperNode = Node207::GND LowerNode = Node208::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via102::GND UpperNode = Node209::GND LowerNode = Node210::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via103::GND UpperNode = Node211::GND LowerNode = Node212::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via104::GND UpperNode = Node213::GND LowerNode = Node214::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via105::GND UpperNode = Node215::GND LowerNode = Node216::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via106::GND UpperNode = Node217::GND LowerNode = Node218::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via107::GND UpperNode = Node219::GND LowerNode = Node220::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via108 UpperNode = Node222 LowerNode = Node223 PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via109 UpperNode = Node224 LowerNode = Node225 PadStack = TOP-BOTTOM
+Via10::GND UpperNode = Node24::GND LowerNode = Node25::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via110 UpperNode = Node226 LowerNode = Node227 PadStack = TOP-BOTTOM
+Via11::GND UpperNode = Node26::GND LowerNode = Node27::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via12::GND UpperNode = Node28::GND LowerNode = Node29::GND PadStack = TOP-BOTTOM
+Via13::GND UpperNode = Node30::GND LowerNode = Node31::GND PadStack = TOP-BOTTOM
+Via14::GND UpperNode = Node32::GND LowerNode = Node33::GND PadStack = TOP-BOTTOM
+Via15::GND UpperNode = Node34::GND LowerNode = Node35::GND PadStack = TOP-BOTTOM
+Via16::GND UpperNode = Node36::GND LowerNode = Node37::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via17::GND UpperNode = Node38::GND LowerNode = Node39::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via18::GND UpperNode = Node40::GND LowerNode = Node41::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via19::GND UpperNode = Node42::GND LowerNode = Node43::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via1::GND UpperNode = Node6::GND LowerNode = Node7::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via20::GND UpperNode = Node44::GND LowerNode = Node45::GND PadStack = TOP-BOTTOM
+Via21::GND UpperNode = Node46::GND LowerNode = Node47::GND PadStack = TOP-BOTTOM
+Via22::GND UpperNode = Node48::GND LowerNode = Node49::GND PadStack = TOP-BOTTOM
+Via23::GND UpperNode = Node50::GND LowerNode = Node51::GND PadStack = TOP-BOTTOM
+Via24::GND UpperNode = Node52::GND LowerNode = Node53::GND PadStack = TOP-BOTTOM
+Via25::GND UpperNode = Node54::GND LowerNode = Node55::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via26::GND UpperNode = Node56::GND LowerNode = Node57::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via27::GND UpperNode = Node58::GND LowerNode = Node59::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via28::GND UpperNode = Node60::GND LowerNode = Node61::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via29::GND UpperNode = Node62::GND LowerNode = Node63::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via2::GND UpperNode = Node8::GND LowerNode = Node9::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via30::GND UpperNode = Node64::GND LowerNode = Node65::GND PadStack = TOP-BOTTOM
+Via31::GND UpperNode = Node66::GND LowerNode = Node67::GND PadStack = TOP-BOTTOM
+Via32::GND UpperNode = Node68::GND LowerNode = Node69::GND PadStack = TOP-BOTTOM
+Via33::GND UpperNode = Node70::GND LowerNode = Node71::GND PadStack = TOP-BOTTOM
+Via34::GND UpperNode = Node72::GND LowerNode = Node73::GND PadStack = TOP-BOTTOM
+Via35::GND UpperNode = Node74::GND LowerNode = Node75::GND PadStack = TOP-BOTTOM
+Via36::GND UpperNode = Node76::GND LowerNode = Node77::GND PadStack = TOP-BOTTOM
+Via37::GND UpperNode = Node78::GND LowerNode = Node79::GND PadStack = TOP-BOTTOM
+Via38::GND UpperNode = Node80::GND LowerNode = Node81::GND PadStack = TOP-BOTTOM
+Via39::GND UpperNode = Node82::GND LowerNode = Node83::GND PadStack = TOP-BOTTOM
+Via3::GND UpperNode = Node10::GND LowerNode = Node11::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via40::GND UpperNode = Node84::GND LowerNode = Node85::GND PadStack = TOP-BOTTOM
+Via41::GND UpperNode = Node86::GND LowerNode = Node87::GND PadStack = TOP-BOTTOM
+Via42::GND UpperNode = Node88::GND LowerNode = Node89::GND PadStack = TOP-BOTTOM
+Via43::GND UpperNode = Node90::GND LowerNode = Node91::GND PadStack = TOP-BOTTOM
+Via44::GND UpperNode = Node92::GND LowerNode = Node93::GND PadStack = TOP-BOTTOM
+Via45::GND UpperNode = Node94::GND LowerNode = Node95::GND PadStack = TOP-BOTTOM
+Via46::GND UpperNode = Node96::GND LowerNode = Node97::GND PadStack = TOP-BOTTOM
+Via47::GND UpperNode = Node98::GND LowerNode = Node99::GND PadStack = TOP-BOTTOM
+Via48::GND UpperNode = Node100::GND LowerNode = Node101::GND PadStack = TOP-BOTTOM
+Via49::GND UpperNode = Node102::GND LowerNode = Node103::GND PadStack = TOP-BOTTOM
+Via4::GND UpperNode = Node12::GND LowerNode = Node13::GND PadStack = TOP-BOTTOM
+Via50::GND UpperNode = Node104::GND LowerNode = Node105::GND PadStack = TOP-BOTTOM
+Via51::GND UpperNode = Node106::GND LowerNode = Node107::GND PadStack = TOP-BOTTOM
+Via52::GND UpperNode = Node108::GND LowerNode = Node109::GND PadStack = TOP-BOTTOM
+Via53::GND UpperNode = Node110::GND LowerNode = Node111::GND PadStack = TOP-BOTTOM
+Via54::GND UpperNode = Node112::GND LowerNode = Node113::GND PadStack = TOP-BOTTOM
+Via55::GND UpperNode = Node114::GND LowerNode = Node115::GND PadStack = TOP-BOTTOM
+Via56::GND UpperNode = Node116::GND LowerNode = Node117::GND PadStack = TOP-BOTTOM
+Via57::GND UpperNode = Node118::GND LowerNode = Node119::GND PadStack = TOP-BOTTOM
+Via58::GND UpperNode = Node120::GND LowerNode = Node121::GND PadStack = TOP-BOTTOM
+Via59::GND UpperNode = Node122::GND LowerNode = Node123::GND PadStack = TOP-BOTTOM
+Via5::GND UpperNode = Node14::GND LowerNode = Node15::GND PadStack = TOP-BOTTOM
+Via60::GND UpperNode = Node124::GND LowerNode = Node125::GND PadStack = TOP-BOTTOM
+Via61::GND UpperNode = Node126::GND LowerNode = Node127::GND PadStack = TOP-BOTTOM
+Via62::GND UpperNode = Node128::GND LowerNode = Node129::GND PadStack = TOP-BOTTOM
+Via63::GND UpperNode = Node130::GND LowerNode = Node131::GND PadStack = TOP-BOTTOM
+Via64::GND UpperNode = Node132::GND LowerNode = Node133::GND PadStack = TOP-BOTTOM
+Via65::GND UpperNode = Node134::GND LowerNode = Node135::GND PadStack = TOP-BOTTOM
+Via66::GND UpperNode = Node136::GND LowerNode = Node137::GND PadStack = TOP-BOTTOM
+Via67::GND UpperNode = Node138::GND LowerNode = Node139::GND PadStack = TOP-BOTTOM
+Via68::GND UpperNode = Node140::GND LowerNode = Node141::GND PadStack = TOP-BOTTOM
+Via69::GND UpperNode = Node143::GND LowerNode = Node144::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via6::GND UpperNode = Node16::GND LowerNode = Node17::GND PadStack = TOP-BOTTOM
+Via70::GND UpperNode = Node145::GND LowerNode = Node146::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via71::GND UpperNode = Node147::GND LowerNode = Node148::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via72::GND UpperNode = Node149::GND LowerNode = Node150::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via73::GND UpperNode = Node151::GND LowerNode = Node152::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via74::GND UpperNode = Node153::GND LowerNode = Node154::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via75::GND UpperNode = Node155::GND LowerNode = Node156::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via76::GND UpperNode = Node157::GND LowerNode = Node158::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via77::GND UpperNode = Node159::GND LowerNode = Node160::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via78::GND UpperNode = Node161::GND LowerNode = Node162::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via79::GND UpperNode = Node163::GND LowerNode = Node164::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via7::GND UpperNode = Node18::GND LowerNode = Node19::GND PadStack = TOP-BOTTOM
+Via80::GND UpperNode = Node165::GND LowerNode = Node166::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via81::GND UpperNode = Node167::GND LowerNode = Node168::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via82::GND UpperNode = Node169::GND LowerNode = Node170::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via83::GND UpperNode = Node171::GND LowerNode = Node172::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via84::GND UpperNode = Node173::GND LowerNode = Node174::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via85::GND UpperNode = Node175::GND LowerNode = Node176::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via86::GND UpperNode = Node177::GND LowerNode = Node178::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via87::GND UpperNode = Node179::GND LowerNode = Node180::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via88::GND UpperNode = Node181::GND LowerNode = Node182::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via89::GND UpperNode = Node183::GND LowerNode = Node184::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via8::GND UpperNode = Node20::GND LowerNode = Node21::GND PadStack = TOP-BOTTOM
+Via90::GND UpperNode = Node185::GND LowerNode = Node186::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via91::GND UpperNode = Node187::GND LowerNode = Node188::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via92::GND UpperNode = Node189::GND LowerNode = Node190::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via93::GND UpperNode = Node191::GND LowerNode = Node192::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via94::GND UpperNode = Node193::GND LowerNode = Node194::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via95::GND UpperNode = Node195::GND LowerNode = Node196::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via96::GND UpperNode = Node197::GND LowerNode = Node198::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via97::GND UpperNode = Node199::GND LowerNode = Node200::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via98::GND UpperNode = Node201::GND LowerNode = Node202::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via99::GND UpperNode = Node203::GND LowerNode = Node204::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+Via9::GND UpperNode = Node22::GND LowerNode = Node23::GND PadStack = TOP-BOTTOM AbsoluteRotation = 180.000000
+
+* WireBond Model description lines
+
+* WireBond Group description lines
+
+* Lead Model description lines
+
+* Lead Group description lines
+
+* PadStack Library description lines
+.PadStackDef ~DefaultPadStack 2.000000e-001mm
+.EndPadStackDef
+
+.PadStackDef CONNECTOR_RF_SMA_GND 5.000000e-002mm
+.PadDef Signal$TOP
+Regular RoundedRect_X 1.600000e+000mm 6.000000e+000mm Corner = 3.000000e-001mm Rounded = all
+.EndPadDef
+.EndPadStackDef
+
+.PadStackDef CONNECTOR_RF_SMA_SIGNAL 5.000000e-002mm
+.PadDef Signal$TOP
+Regular Box 1.650000e+000mm 6.700000e+000mm
+.EndPadDef
+.EndPadStackDef
+
+.PadStackDef SHAPE_PAD 5.000000e-002mm
+.PadDef Signal$TOP
+Regular Box 1.000000e-001mm 1.650000e+000mm
+.EndPadDef
+.EndPadStackDef
+
+.PadStackDef SHAPE_PAD1 5.000000e-002mm
+.PadDef Signal$BOTTOM
+Regular Box 1.000000e-001mm 1.650000e+000mm
+.EndPadDef
+.EndPadStackDef
+
+.PadStackDef TOP-BOTTOM 2.000000e-001mm
+.PadDef Signal$BOTTOM
+Regular Circle 4.000000e-001mm
+.EndPadDef
+.PadDef Signal$TOP
+Regular Circle 4.000000e-001mm
+.EndPadDef
+.EndPadStackDef
+
+.PadStackDef VIA_400U 2.000000e-001mm
+.PadDef Signal$BOTTOM
+Regular Circle 4.000000e-001mm
+.EndPadDef
+.PadDef Signal$TOP
+Regular Circle 4.000000e-001mm
+.EndPadDef
+.EndPadStackDef
+
+* Couple line description lines
+
+* Material description lines
+.Material
+.MetalModel COPPER
+*Temperature(C) Conductivity(S/m)
+2.000000e+001 5.959000e+007
+.EndMetalModel
+
+.DielectricModel FR-4
+*Frequency(MHz) Permittivity LossTangent
+1.000000e+002 3.550000e+000 2.200000e-003
+.EndDielectricModel
+
+.ThermalModel copper
+*Temperature(C) Conductivity(W/(m.K)) Density(kg/m3) Heatcapacity(J/(kg.K))
+2.700000e+001 4.010000e+002 8.933000e+003 3.850000e+002
+1.270000e+002 3.930000e+002 8.933000e+003 3.970000e+002
+2.270000e+002 3.860000e+002 8.933000e+003 4.120000e+002
+3.270000e+002 3.790000e+002 8.933000e+003 4.170000e+002
+5.270000e+002 3.660000e+002 8.933000e+003 4.330000e+002
+7.270000e+002 3.520000e+002 8.933000e+003 4.510000e+002
+9.270000e+002 3.390000e+002 8.933000e+003 4.800000e+002
+.EndThermalModel
+.EndMaterial
+
+* SurfaceRoughness description lines
+
+* outline description lines
+.EndPackage
+
+* Cutting Zone description lines
+
+* Global .inc/.lib Command description lines
+
+* Global Parameter description lines
+
+* Global Option description lines
+
+* Sweeping Parameter description lines
+
+* Circuit description blocks
+.PartialCkt CONNECTOR_SMA_GENERAL_CONNECTOR_SMA ExtNode =  1 2 3
+
+.EndPartialCkt
+
+* Linkage description lines
+.Connect CN1 CONNECTOR_SMA_GENERAL_CONNECTOR_SMA Usage = 0b1000
+3 $Package.Node221!!3::GND
+1 $Package.Node142!!1::GND
+2 $Package.Node2!!2::OUT
+.EndC
+
+* Component collection description line
+.CompCollection
+
+* Footprint Library description lines
+
+* Fanout Library description lines
+
+* Part description lines
+.Part CONNECTOR_SMA_GENERAL_CONNECTOR_SMA Height = 0.000000e+000mm
++            Outline = -6.000000e+000mm  -4.000000e+000mm 6.000000e+000mm  -4.000000e+000mm 6.000000e+000mm  4.000000e+000mm -6.000000e+000mm  4.000000e+000mm
++            Tags ="IC"
+
+* Component description lines
+.Component CN1 4.125000e+001mm 0.000000e+000mm Rotation = 9.000000e+001 StartLayer = Signal$TOP AttachLayer = TopAir
++            PowerSysAuto = 1
++            OutputTempFileFlag = 0
++            MaxDieTemperature = -273
++            PropertyType = "-2091838464, , 0, 0, , 0"
++            DiePlacement = (3.725000e+001mm:-6.000000e+000mm;4.525000e+001mm:6.000000e+000mm;90.000;No)
+
+* Component pattern lines
+.EndCompCollection
+
+* Via Pattern description lines
+
+* ViewCktVoltage description lines
+
+* View3D description lines
+
+* Package Voltage Outout description lines
+
+* 3D Voltage Output description lines
+
+* 3D Current Output description lines
+
+* Current Output description lines
+
+* View Package Voltage description lines
+
+* View Current description lines
+
+* Distribution description lines
+
+* Trace check Setup description lines
+.LayoutCheck CheckStatus = 1 mininumCoupling = 0.02 RiseTime = 100 CoplanarTrace = 0
+.EndLayoutCheck
+*Configuration description lines
+.Configuration
+*Polygon Simplification Threshold
++Threshold = 0.0001
++Percentage = 0.001
++Multiplier = 5
+*Trace Shape Conversion
++Trace_Path_Length = 0.0003
+*Floating Operation Precision
++Calc_Precision = 3e-012
++Calc_Precision_For_Square = 5e-020
++Compare_Precision = 1e-009
++Geometric_Object_Precision_Exp = 7
++SmallHole_Deletion_Factor = 0.00333
++TracePolygon_Threshold = 1e-006
++Arc_Discretization_Precision = 0.0002
+*Tool Options
++Number_of_processors = 4
++Auto_save_simulation_result_into_file = 1
++Automatically_output_enforced_passive_results = 0
++Auto_save_result_file_format = 2
++Auto_Save_Partial_Matrix_Results = 0
++CktNode_Includ_NetName = 0
++Trace_Coupling = 2
++Trace_RiseTime = 100
++FilterSignalNets = 1
++ViaShapeConnection = 0
++MeshDisplay = 0
+*Simulation Options
++Ignore_Pwd/Gnd_Traces = 0
++Material_Dispersive_Type = DefaultModel
+*Warning/Error Checking
++Check_for_Floating_Nodes = 0
++Check_for_Via_Placement = 1
++Check_for_Node_Placement = 1
++Check_for_Short_Circuits = 1
++Check_for_Open_Circuits = 1
+*PowerSI Options
++S_param_freq_range_out_of_simulation_range = -1
+
+* Pulse Response Setting description lines
+.PulseSetting Unit_Interval = 1.25e-010 RiseTime = 1e-011 Rterm_Tx = 50 Cterm_Tx = 0 Rterm_Rx = 50 Cterm_Rx = 0 T_max = 0
+.EndPulseSetting
+
+* PowerSI Setup description lines
+.PowerSI
+.MeshSimplification = TRUE
+.CoarseMesh = FALSE
+.MaxEdgeLength = 2.230000e-003
+.ReferenceImpedance = 5.000000e+001
+.ReferenceImpedance2 = 5.000000e+001
+.BoundaryCompensationWithShapeWidth = TRUE
+.DC_BBS_Setting DCFitted = 0 BBSFitted = 1 PDCEqualPotential = 1 PerformDCFitted = 1
+
+* Frqequency Sweep description lines
+.FrequencySweep 1.000000e+002MHz 6.000000e+000GHz 0 Adaptive
+
+* Resonance Setup description lines
+
+* Port description lines
+.Port
+Port1 RefZ = 50
++            PositiveTerminal $Package.Node3::OUT
++            NegativeTerminal $Package.Node5::GND
+Port2 RefZ = 50
++            PositiveTerminal $Package.Node1::OUT
++            NegativeTerminal $Package.Node4::GND
+.EndPort
+
+* Extraction Setting description lines
+
+* Wave3DSetting description lines
+.Wave3D
+.FrequencyNew 1.000000e+008 6.000000e+009 0
+.AdvancedOption 0
+.MetalType 2
+.OuterBoxSize 6.504000e-003 6.504000e-003 6.504000e-003 6.504000e-003 6.504000e-003 6.504000e-003
+.OuterBoxBoundaryConditions 2 DXP = 2 DXM = 2 DYP = 2 DYM = 2 DZP = 2 DZM = 2
+.BasisFunctionOrder 1
+.AdvancedFrequencySweep 1
+.FrequencySweepTolerance 5.000000e-002
+.MaxNumberOfAdaptiveMeshIteration 50
+.AdaptiveRefinementRatio 3.000000e-001
+.AdaptiveRefinementTolerance 2.000000e-002
+.MinimumNumberOfAdaptiveIterations 1
+.MinimumNumberOfConvergedIterations 1
+.NumberOfPointsForViaWireBallBump 6
+.MeshAlgorithm 0
+.OutOfCoreSolver 0
+.EnableLowFrequencySolution 0
+.ReuseMeshFile 0
+*3D special voids description line
+.SpecialVoid DoglegHole = 0.0015 ThermalHole = 0.0015 SmallHole = 0.0015 ViaHole = 0.0015 SlenderHoleArea = 2.25e-006 SlenderHoleSize = 1
+.CutAndStitchData RunCutAndStitch = 0 CutAndStitchType = 1  ShapeWidth = 1.2 PortLength = 1 PortWidth = 0.95 ViaDiameter = 1 NeedExtendShape = 0 ExtendShapeLength = 10
+.TransitionFrequency 1.000000e+007
+.FrequencyStepSize 1e+007
+.FrequencyPointsperDecade 10
+.SolutionFrequency 6.000000e+009
+.ApplyConformalBoundary false
+.DielectricBufferSize 0.000000e+000
+
+* Fiber Weave description lines
+.FiberWeave
+Resin ShowEnabled = 0
+.EndFiberWeave
+
+*Wave Surface description lines
+.WaveSurface
+.EndWaveSurface
+.EndWave3D
+
+* 3DBEM Setting description lines
+.3DBEM
+.Frequency 1.000000e+008 1.000000e+010 200
+.AdvancedOption 1 50 1.000000e-002 0
+.MetalType 1
+.EnableLowFrequencySolution 0
+.EdgeNumber 15
+.ViaSubdivisions 4
+.SimplificationLevel 0
+.TopLayerStatus 0
+.BottomLayerStatus 1
+.End3DBEM
+.EndPowerSI
+
+* Speed2000 Setup description lines
+
+* Group Net description lines
+
+* Netlist description lines
+.NetList
+	 RiseTime = 0ps %Coupling = 0
+	PowerNets Color = red
+	GroundNets Color = green
+	OUT Color = red Voltage = 0
+	GND -> GroundNets Color = green Voltage = 0
+.EndNetList
+NetListFlag = B55E581A-C2ACA2C7-DEE48EB7-9CC8DCEA
+
+* Differential Channel description lines
+
+* Guides description lines
+
+* Design rules/Clearances description lines
+
+* Net Alias description lines
+.End
