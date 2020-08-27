@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : tstFixture_S2-LP.mcm                          )
+(    Drawing          : tstFixture_calSOLT.mcm                        )
 (    Software Version : 17.2S049                                      )
-(    Date/Time        : Thu Aug 27 14:36:23 2020                      )
+(    Date/Time        : Thu Aug 27 12:01:52 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,31 +17,24 @@ Ripup retain bondwire:       No
 Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         'D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Netlist'
+Schematic directory:         'D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Netlist_calSOLT'
 Design Directory:            'D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Layout'
-Old design name:             'D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Layout/tstFixture_S2-LP.mcm'
-New design name:             'D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Layout/tstFixture_S2-LP.mcm'
+Old design name:             'D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Layout/tstFixture_calSOLT.mcm'
+New design name:             'D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Layout/tstFixture_calSOLT.mcm'
 
-CmdLine: netrev.exe -y 1 -z -i D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Netlist D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Layout\tstFixture_S2-LP.mcm D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Layout\tstFixture_S2-LP.mcm
+CmdLine: netrev.exe -y 1 -z -i D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Netlist_calSOLT D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Layout\tstFixture_calSOLT.mcm D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Layout\tstFixture_calSOLT.mcm
 
 ------ Preparing to read pst files ------
 
-Starting to read D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist/pstchip.dat 
-   Finished reading D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist/pstchip.dat (00:00:00.10)
-Starting to read D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist/pstxprt.dat 
-   Finished reading D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist/pstxprt.dat (00:00:00.00)
-Starting to read D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist/pstxnet.dat 
-   Finished reading D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist/pstxnet.dat (00:00:00.00)
+Starting to read D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist_calSOLT/pstchip.dat 
+   Finished reading D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist_calSOLT/pstchip.dat (00:00:00.06)
+Starting to read D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist_calSOLT/pstxprt.dat 
+   Finished reading D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist_calSOLT/pstxprt.dat (00:00:00.00)
+Starting to read D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist_calSOLT/pstxnet.dat 
+   Finished reading D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist_calSOLT/pstxnet.dat (00:00:00.00)
 
 ------ Oversights/Warnings/Errors ------
 
-
-#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-194): Symbol 'CRYSTAL_FA_128_48M' used by RefDes U2 for device 'SIP_IOT_XTAL_0_CRYSTAL_FA_128_4' not found. 
-The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
-
-Set the correct library path if not set or use dbdoctor to migrat
 
 ------ Library Paths ------
 MODULEPATH =  . 
@@ -80,8 +73,8 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Aug 27 14:36:23 2020
-   DESIGN NAME : 'TSTFIXTURE_S2-LP'
+netrev run on Aug 27 12:01:52 2020
+   DESIGN NAME : 'TSTFIXTURE_CALSOLT'
    PACKAGING ON Oct 29 2018 20:45:38
 
    COMPILE 'logic'
@@ -103,8 +96,8 @@ netrev run on Aug 27 14:36:23 2020
 
  No error detected
  No oversight detected
-  1 warnings detected
+ No warning detected
 
-cpu time      0:06:23
-elapsed time  0:00:03
+cpu time      0:03:41
+elapsed time  0:00:01
 

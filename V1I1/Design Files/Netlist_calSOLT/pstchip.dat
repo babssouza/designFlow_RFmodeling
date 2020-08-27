@@ -1,0 +1,36 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 17.2.0 d001Aug-27-2020 at 12:01:48}
+primitive 'CONNECTOR_SMA_GENERAL_CONNECTOR';
+  pin
+    'SIGNAL':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'GNDA':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'GNDA3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='connector_sma_general';
+    JEDEC_TYPE='connector_rf_sma';
+    VALUE='SMA';
+  end_body;
+end_primitive;
+primitive 'PASSIVES_RESISTOR_GENERAL_PASSI';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='passives_resistor_general';
+    JEDEC_TYPE='passives_nsmd_0603';
+    VALUE='100';
+  end_body;
+end_primitive;
+END.

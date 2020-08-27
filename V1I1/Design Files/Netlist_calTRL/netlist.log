@@ -1,0 +1,13 @@
+{ Using PSTWRITER 17.2.0 d001Aug-26-2020 at 10:57:31 }
+
+#1 WARNING(ORCAP-36006): Part Name "CONNECTOR_SMA_GENERAL_CONNECTOR_RF_SMA_SMA" is renamed to "CONNECTOR_SMA_GENERAL_CONNECTOR".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Netlist_calTRL/pstchip.dat
+
+Loading... D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Netlist_calTRL/pstchip.dat
+
+Loading... D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Netlist_calTRL/pstchip.dat
+
+Loading... D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Netlist_calTRL/pstxnet.dat
+packaging the design view...

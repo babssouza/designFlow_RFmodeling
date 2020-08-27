@@ -1,0 +1,80 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Aug-27-2020 at 12:01:48 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='TSTFIXTURE_CALSOLT';
+ POST_TIME='Oct 29 2018 20:45:38';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ CN1 'CONNECTOR_SMA_GENERAL_CONNECTOR':;
+
+SECTION_NUMBER 1
+ '@TSTFIXTURE_CALSOLT.SCHEMATIC1(SCH_1):INS60@HT_LIB.CONNECTOR_SMA_GENERAL.NORMAL(CHIPS)':
+ C_PATH='@tstfixture_calsolt.schematic1(sch_1):ins60@ht_lib.\connector_sma_general.normal\(chips)',
+ P_PATH='@tstfixture_calsolt.schematic1(sch_1):page1_ins60@ht_lib.\connector_sma_general.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CN2 'CONNECTOR_SMA_GENERAL_CONNECTOR':;
+
+SECTION_NUMBER 1
+ '@TSTFIXTURE_CALSOLT.SCHEMATIC1(SCH_1):INS566@HT_LIB.CONNECTOR_SMA_GENERAL.NORMAL(CHIPS)':
+ C_PATH='@tstfixture_calsolt.schematic1(sch_1):ins566@ht_lib.\connector_sma_general.normal\(chips)',
+ P_PATH='@tstfixture_calsolt.schematic1(sch_1):page1_ins566@ht_lib.\connector_sma_general.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CN3 'CONNECTOR_SMA_GENERAL_CONNECTOR':;
+
+SECTION_NUMBER 1
+ '@TSTFIXTURE_CALSOLT.SCHEMATIC1(SCH_1):INS679@HT_LIB.CONNECTOR_SMA_GENERAL.NORMAL(CHIPS)':
+ C_PATH='@tstfixture_calsolt.schematic1(sch_1):ins679@ht_lib.\connector_sma_general.normal\(chips)',
+ P_PATH='@tstfixture_calsolt.schematic1(sch_1):page1_ins679@ht_lib.\connector_sma_general.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CN4 'CONNECTOR_SMA_GENERAL_CONNECTOR':;
+
+SECTION_NUMBER 1
+ '@TSTFIXTURE_CALSOLT.SCHEMATIC1(SCH_1):INS799@HT_LIB.CONNECTOR_SMA_GENERAL.NORMAL(CHIPS)':
+ C_PATH='@tstfixture_calsolt.schematic1(sch_1):ins799@ht_lib.\connector_sma_general.normal\(chips)',
+ P_PATH='@tstfixture_calsolt.schematic1(sch_1):page1_ins799@ht_lib.\connector_sma_general.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CN5 'CONNECTOR_SMA_GENERAL_CONNECTOR':;
+
+SECTION_NUMBER 1
+ '@TSTFIXTURE_CALSOLT.SCHEMATIC1(SCH_1):INS926@HT_LIB.CONNECTOR_SMA_GENERAL.NORMAL(CHIPS)':
+ C_PATH='@tstfixture_calsolt.schematic1(sch_1):ins926@ht_lib.\connector_sma_general.normal\(chips)',
+ P_PATH='@tstfixture_calsolt.schematic1(sch_1):page1_ins926@ht_lib.\connector_sma_general.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'PASSIVES_RESISTOR_GENERAL_PASSI':;
+
+SECTION_NUMBER 1
+ '@TSTFIXTURE_CALSOLT.SCHEMATIC1(SCH_1):INS2417@HT_LIB.PASSIVES_RESISTOR_GENERAL.NORMAL(CHIPS)':
+ C_PATH='@tstfixture_calsolt.schematic1(sch_1):ins2417@ht_lib.\passives_resistor_general.normal\(chips)',
+ P_PATH='@tstfixture_calsolt.schematic1(sch_1):page1_ins2417@ht_lib.\passives_resistor_general.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'PASSIVES_RESISTOR_GENERAL_PASSI':;
+
+SECTION_NUMBER 1
+ '@TSTFIXTURE_CALSOLT.SCHEMATIC1(SCH_1):INS2433@HT_LIB.PASSIVES_RESISTOR_GENERAL.NORMAL(CHIPS)':
+ C_PATH='@tstfixture_calsolt.schematic1(sch_1):ins2433@ht_lib.\passives_resistor_general.normal\(chips)',
+ P_PATH='@tstfixture_calsolt.schematic1(sch_1):page1_ins2433@ht_lib.\passives_resistor_general.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

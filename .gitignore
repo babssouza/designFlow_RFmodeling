@@ -18,3 +18,14 @@ V1I1/Design Files/Layout/*.dml
 V1I1/Design Files/Layout/*.tag
 V1I1/Design Files/Layout/*.jrl
 V1I1/Design Files/Layout/*.lst
+V1I1/Design Files/Layout/*.iml
+V1I1/Design Files/Layout/*.mcm.lck
+V1I1/Design Files/Layout/*.lck
+V1I1/Design Files/Layout/*.bnp
+V1I1/Design Files/Layout/*.ckt
+V1I1/Design Files/Layout/*.tag
+V1I1/Simulation/*.log
+V1I1/Simulation/*.xml
+V1I1/Simulation/*.err
+V1I1/Simulation/*.bnp
+V1I1/Simulation/*.ckt

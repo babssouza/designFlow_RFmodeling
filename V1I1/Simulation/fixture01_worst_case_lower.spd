@@ -43,16 +43,16 @@ Title - PowerSI file for version 2000.18
 
 * Shape description lines
 .Shape Signal$TOPpkgshape
-Box1::GND+ 0.000000e+000mm 1.025000e+000mm 5.300000e+001mm 8.000000e+000mm
-Box2::GND+ 0.000000e+000mm -9.025000e+000mm 5.300000e+001mm 8.000000e+000mm
-Box3::OUT+ 0.000000e+000mm -8.250000e-001mm 5.300000e+001mm 1.650000e+000mm
+Box2::GND+ 0.000000e+000mm -8.900000e+000mm 5.300000e+001mm 8.000000e+000mm
+Box1::GND+ 0.000000e+000mm 9.000000e-001mm 5.300000e+001mm 8.000000e+000mm
+Box3::OUT+ 0.000000e+000mm -6.600000e-001mm 5.300000e+001mm 1.320000e+000mm
 .EndShape
 
 .Shape Signal$BOTTOMpkgshape
 Box4::GND+ 0.000000e+000mm -9.025000e+000mm 5.300000e+001mm 1.805000e+001mm
 .EndShape
 
-UnionizedShape = 985EC7A3-48F21143-CA1E5584-F8CA50AC
+UnionizedShape = 2917D872-90F10F37-A6C11A7E-F1B6581B
 
 * Cutting Boundary description lines
 
@@ -595,7 +595,7 @@ Regular Circle 4.000000e-001mm
 +            PowerSysAuto = 1
 +            OutputTempFileFlag = 0
 +            MaxDieTemperature = -273
-+            PropertyType = "-285211648, , 0, 0, , 0"
++            PropertyType = "33, , 0, 0, , 0"
 +            DiePlacement = (4.565000e+001mm:-6.000000e+000mm;5.365000e+001mm:6.000000e+000mm;90.000;No)
 
 * Component pattern lines
@@ -679,7 +679,7 @@ Regular Circle 4.000000e-001mm
 .DC_BBS_Setting DCFitted = 0 BBSFitted = 1 PDCEqualPotential = 1 PerformDCFitted = 1
 
 * Frqequency Sweep description lines
-.FrequencySweep 4.000000e+002MHz 6.000000e+000GHz 0 Adaptive
+.FrequencySweep 1.000000e+002MHz 6.000000e+000GHz 0 Adaptive
 
 * Resonance Setup description lines
 
@@ -697,7 +697,7 @@ Port2 RefZ = 50
 
 * Wave3DSetting description lines
 .Wave3D
-.FrequencyNew 4.000000e+008 6.000000e+009 0
+.FrequencyNew 1.000000e+008 6.000000e+009 0
 .AdvancedOption 0
 .MetalType 2
 .OuterBoxSize 6.504000e-003 6.504000e-003 6.504000e-003 6.504000e-003 6.504000e-003 6.504000e-003

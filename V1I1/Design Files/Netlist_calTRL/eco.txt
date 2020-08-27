@@ -1,0 +1,85 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  D:.../designFlow_RFmodeling/V1I1/Design Files/Layout/tstFixture_calTRL.mcm  |
+|                                                    Wed Aug 26 10:57:34 2020  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  0            pins ADDED TO this new net
+                                 CN1.1          CN1.3          CN2.1          
+                                 CN2.3          CN3.1          CN3.3          
+                                 CN4.1          CN4.3          CN5.1          
+                                 CN5.2          CN5.3          CN6.1          
+                                 CN6.2          CN6.3          CN7.1          
+                                 CN7.3          CN8.1          CN8.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HALF_THRU    pins ADDED TO this new net
+                                 CN1.2          CN2.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LINE1_0.375-3GHZ pins ADDED TO this new net
+                                 CN7.2          CN8.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  THRU         pins ADDED TO this new net
+                                 CN3.2          CN4.2          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  D:.../designFlow_RFmodeling/V1I1/Design Files/Layout/tstFixture_calTRL.mcm  |
+|                                                    Wed Aug 26 10:57:34 2020  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CONNECTOR_SMA_GENERAL_CONNECTOR
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  D:.../designFlow_RFmodeling/V1I1/Design Files/Layout/tstFixture_calTRL.mcm  |
+|                                                    Wed Aug 26 10:57:34 2020  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CN1                 CONNECTOR_SMA_GENERAL_CONNECTOR 
+ CN2                 CONNECTOR_SMA_GENERAL_CONNECTOR 
+ CN3                 CONNECTOR_SMA_GENERAL_CONNECTOR 
+ CN4                 CONNECTOR_SMA_GENERAL_CONNECTOR 
+ CN5                 CONNECTOR_SMA_GENERAL_CONNECTOR 
+ CN6                 CONNECTOR_SMA_GENERAL_CONNECTOR 
+ CN7                 CONNECTOR_SMA_GENERAL_CONNECTOR 
+ CN8                 CONNECTOR_SMA_GENERAL_CONNECTOR 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  D:.../designFlow_RFmodeling/V1I1/Design Files/Layout/tstFixture_calTRL.mcm  |
+|                                                    Wed Aug 26 10:57:34 2020  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CN1.2                          PRIM_FILE      .\pstchip.dat
+ CN2.2                          PRIM_FILE      .\pstchip.dat
+ CN3.2                          PRIM_FILE      .\pstchip.dat
+ CN4.2                          PRIM_FILE      .\pstchip.dat
+ CN5.2                          PRIM_FILE      .\pstchip.dat
+ CN6.2                          PRIM_FILE      .\pstchip.dat
+ CN7.2                          PRIM_FILE      .\pstchip.dat
+ CN8.2                          PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :      24                                        |
+|       Comp definitions added:       1                                        |
+|       Components added      :       8                                        |
+|       Slot property added   :       8                                        |
+|                                                                              |
+|   Total ECO changes reported:      41                                        |
+|------------------------------------------------------------------------------|
