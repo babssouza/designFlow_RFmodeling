@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : tstFixture_S2-LP.mcm                          )
+(    Drawing          : tstFixture_SKY66420.mcm                       )
 (    Software Version : 17.2S049                                      )
-(    Date/Time        : Sat Aug 29 00:48:15 2020                      )
+(    Date/Time        : Sun Aug 30 17:24:16 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,28 +17,28 @@ Ripup retain bondwire:       No
 Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         'D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Netlist_tstfx_s2-lp'
+Schematic directory:         'D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Netlist_tstfx_sky66420'
 Design Directory:            'D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Layout'
-Old design name:             'D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Layout/tstFixture_S2-LP.mcm'
-New design name:             'D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Layout/tstFixture_S2-LP.mcm'
+Old design name:             'D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Layout/tstFixture_SKY66420.mcm'
+New design name:             'D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Layout/tstFixture_SKY66420.mcm'
 
-CmdLine: netrev.exe -y 1 -z -i D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Netlist_tstfx_s2-lp D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Layout\tstFixture_S2-LP.mcm D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Layout\tstFixture_S2-LP.mcm
+CmdLine: netrev.exe -y 1 -z -i D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Netlist_tstfx_sky66420 D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Layout\tstFixture_SKY66420.mcm D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Layout\tstFixture_SKY66420.mcm
 
 ------ Preparing to read pst files ------
 
-Starting to read D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist_tstfx_s2-lp/pstchip.dat 
-   Finished reading D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist_tstfx_s2-lp/pstchip.dat (00:00:00.20)
-Starting to read D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist_tstfx_s2-lp/pstxprt.dat 
-   Finished reading D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist_tstfx_s2-lp/pstxprt.dat (00:00:00.00)
-Starting to read D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist_tstfx_s2-lp/pstxnet.dat 
-   Finished reading D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist_tstfx_s2-lp/pstxnet.dat (00:00:00.00)
+Starting to read D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist_tstfx_sky66420/pstchip.dat 
+   Finished reading D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist_tstfx_sky66420/pstchip.dat (00:00:00.07)
+Starting to read D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist_tstfx_sky66420/pstxprt.dat 
+   Finished reading D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist_tstfx_sky66420/pstxprt.dat (00:00:00.00)
+Starting to read D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist_tstfx_sky66420/pstxnet.dat 
+   Finished reading D:/Work/SiP Sigfox/Hardware/Work/designFlow_RFmodeling/V1I1/Design Files/Netlist_tstfx_sky66420/pstxnet.dat (00:00:00.00)
 
 ------ Oversights/Warnings/Errors ------
 
 
 ------ Library Paths ------
 MODULEPATH =  . 
-           c:/cadence/spb_17.2/share/local/pcb/modules 
+           C:/Cadence/SPB_17.2/share/local/pcb/modules 
            C:/Users/Felipe/Desktop/Design_Reuse_Capture_Allegro/LAB/BOT/Design/allegro 
            C:/Users/Felipe/Desktop/Design_Reuse_Capture_Allegro/LAB/BOT/library/allegro 
            D:/Work/cadence_lib/blocks_symbols/ 
@@ -49,9 +49,9 @@ PSMPATH =  .
            symbols 
            .. 
            ../symbols 
-           c:/cadence/spb_17.2/share/local/pcb/symbols 
-           c:/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
-           c:/cadence/spb_17.2/share/pcb/allegrolib/symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
            D:/Work/cadence_lib/symbols_drawing/ 
            D:/Work/cadence_lib/mechanical_symbols/ 
            D:/Work/cadence_lib/blocks_symbols/ 
@@ -61,9 +61,9 @@ PADPATH =  .
            symbols 
            .. 
            ../symbols 
-           c:/cadence/spb_17.2/share/local/pcb/padstacks 
-           c:/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
-           c:/cadence/spb_17.2/share/pcb/allegrolib/symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
            D:/Work/cadence_lib/symbols_drawing/ 
            D:/Work/cadence_lib/vias/ 
            D:/Work/cadence_lib/mechanical_symbols/ 
@@ -73,8 +73,8 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Aug 29 0:48:15 2020
-   DESIGN NAME : 'TSTFIXTURE_S2-LP'
+netrev run on Aug 30 17:24:16 2020
+   DESIGN NAME : 'TESTFIXTURE_SKY66420'
    PACKAGING ON Oct 29 2018 20:45:38
 
    COMPILE 'logic'
@@ -98,6 +98,6 @@ netrev run on Aug 29 0:48:15 2020
  No oversight detected
  No warning detected
 
-cpu time      0:05:01
-elapsed time  0:00:01
+cpu time      0:04:58
+elapsed time  0:00:02
 

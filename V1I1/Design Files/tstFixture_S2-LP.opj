@@ -10,7 +10,7 @@
     (CompileFileAddedOrDeleted "x")
     (ANNOTATE_Scope "0")
     (ANNOTATE_Mode "1")
-    (ANNOTATE_Action "2")
+    (ANNOTATE_Action "0")
     (Annotate_Page_Order "0")
     (ANNOTATE_Reset_References_to_1 "FALSE")
     (ANNOTATE_No_Page_Number_Change "FALSE")
@@ -27,7 +27,7 @@
     (Netlist_TAB "0")
     ("Create Allegro Netlist" "TRUE")
     ("Allegro Netlist Directory"
-       "D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Netlist")
+       "D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Netlist_tstfx_s2-lp")
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
@@ -42,6 +42,18 @@
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "TRUE")
     ("Allegro Netlist User Defined Property" "FALSE")
+    (EDIF_Netlist_File "TSTFIXTURE_S2-LP.EDN")
+    (EDIF_Allow_NonEDIF "FALSE")
+    (EDIF_Pin_Names "FALSE")
+    (EDIF_No_Library "FALSE")
+    (EDIF_Net_Props "FALSE")
+    (EDIF_Part_Props "FALSE")
+    (EDIF_Pin_Props "FALSE")
+    (EDIF_Scalars "FALSE")
+    (EDIF_Designators "FALSE")
+    (EDIF_Part_Value "{Value}")
+    (EDIF_PCB_Footprint "{PCB Footprint}")
+    (EDIF_View_Output "TRUE")
     ("Allegro Netlist Input Board File"
        "D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Layout\tstFixture_S2-LP.mcm"))
   (Folder "Outputs"
@@ -53,9 +65,28 @@
       (DisplayName "pstxprt.dat"))
     (File ".\netlist\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat")))
+      (DisplayName "pstchip.dat"))
+    (File ".\netlist_tstfx_s2-lp\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\netlist_tstfx_s2-lp\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\netlist_tstfx_s2-lp\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\tstfixture_s2-lp.edn"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (connector_sma_general
+      (FullPartName "connector_sma_general.Normal")
+      (LibraryName "D:\WORK\CADENCE_LIB\SCH_CAPTURE_LIB\HT_LIB.OLB")
+      (DeviceIndex "0"))
+    (fixture01
+      (FullPartName "fixture01.Normal")
+      (LibraryName "D:\WORK\CADENCE_LIB\SCH_CAPTURE_LIB\HT_LIB.OLB")
+      (DeviceIndex "0"))
     (connector_pin_header_1x2
       (FullPartName "connector_pin_header_1x2.Normal")
       (LibraryName "D:\WORK\CADENCE_LIB\SCH_CAPTURE_LIB\HT_LIB.OLB")
@@ -68,10 +99,6 @@
       (FullPartName "connector_pin_header_1x6.Normal")
       (LibraryName "D:\WORK\CADENCE_LIB\SCH_CAPTURE_LIB\HT_LIB.OLB")
       (DeviceIndex "0"))
-    (connector_sma_general
-      (FullPartName "connector_sma_general.Normal")
-      (LibraryName "D:\WORK\CADENCE_LIB\SCH_CAPTURE_LIB\HT_LIB.OLB")
-      (DeviceIndex "0"))
     (RF_transceiver_S2LP_DIE
       (FullPartName "RF_transceiver_S2LP_DIE.Normal")
       (LibraryName "D:\WORK\CADENCE_LIB\SCH_CAPTURE_LIB\HT_LIB.OLB")
@@ -80,15 +107,10 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "d:\work\sip sigfox\hardware\work\designflow_rfmodeling\v1i1\design files\tstfixture_s2-lp.dsn")
-      (Path "Design Resources"
-         "d:\work\sip sigfox\hardware\work\designflow_rfmodeling\v1i1\design files\tstfixture_s2-lp.dsn"
-         "SCHEMATIC1")
+      (Path "Design Resources" ".\tstfixture_s2-lp.dsn")
+      (Path "Design Resources" ".\tstfixture_s2-lp.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources"
-         "d:\work\sip sigfox\hardware\work\designflow_rfmodeling\v1i1\design files\tstfixture_s2-lp.dsn"
-         "SCHEMATIC1" "PAGE1"))
+      (Select "Design Resources" ".\tstfixture_s2-lp.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -99,8 +121,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1206 52 312")
-        (Scroll "-41 118")
-        (Zoom "62")
+        (Scroll "830 228")
+        (Zoom "124")
         (Occurrence "/"))
       (Path
          "D:\WORK\SIP SIGFOX\HARDWARE\WORK\DESIGNFLOW_RFMODELING\V1I1\DESIGN FILES\TSTFIXTURE_S2-LP.DSN")

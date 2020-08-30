@@ -2,37 +2,33 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  D:.../designFlow_RFmodeling/V1I1/Design Files/Layout/tstFixture_S2-LP.mcm   |
-|                                                    Sat Aug 29 00:48:15 2020  |
+|  D:.../V1I1/Design Files/Layout/tstFixture_SKY66420.mcm                      |
+|                                                    Sun Aug 30 17:24:16 2020  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  GND          pins MOVED FROM this net (to net name listed on right)
-                                 CN6.1             4.100   8.800
-                                                                        N753612
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N747662      pins MOVED FROM this net (to net name listed on right)
-                                 CN6.2             6.640   8.800
+  3V3          pins MOVED FROM this net (to net name listed on right)
+                                 CN2.1           -12.595 -20.500
                                                                             GND
-                                 L2.2              4.100   1.950
-                                                                        N753612
+                                 CN8.1           -25.545  26.050
+                                                                            GND
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  D:.../designFlow_RFmodeling/V1I1/Design Files/Layout/tstFixture_S2-LP.mcm   |
-|                                                    Sat Aug 29 00:48:15 2020  |
+|  D:.../V1I1/Design Files/Layout/tstFixture_SKY66420.mcm                      |
+|                                                    Sun Aug 30 17:24:16 2020  |
 |------------------------------------------------------------------------------|
 | COMPONENTS DELETED from design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        |    device type      |   x   |   y                        |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- F1_CN1              CONNECTOR_SMA_GENERAL_CONNECTOR                
+ CN1                 CONNECTOR_PIN_HEADER_1X2_CONNEC -32.825  26.050
 |------------------------------------------------------------------------------|
-|       Nets changed          :       3                                        |
+|       Nets changed          :       2                                        |
 |       Components deleted    :       1                                        |
 |                                                                              |
-|   Total ECO changes reported:       4                                        |
+|   Total ECO changes reported:       3                                        |
 |------------------------------------------------------------------------------|

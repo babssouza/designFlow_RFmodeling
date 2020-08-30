@@ -1,6 +1,6 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Aug-27-2020 at 14:43:22}
-primitive 'C_1_PASSIVES_SMD_0402_4.7UF';
+{ Using PSTWRITER 17.2.0 d001Aug-29-2020 at 00:48:13}
+primitive 'C_1_PASSIVES_NSMD_0402_4.7UF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -11,11 +11,11 @@ primitive 'C_1_PASSIVES_SMD_0402_4.7UF';
   end_pin;
   body
     PART_NAME='C_1';
-    JEDEC_TYPE='passives_smd_0402';
+    JEDEC_TYPE='passives_nsmd_0402';
     VALUE='4.7uF';
   end_body;
 end_primitive;
-primitive 'C_1_PASSIVES_SMD_0201_12PF';
+primitive 'C_1_PASSIVES_NSMD_0201_12PF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -26,11 +26,11 @@ primitive 'C_1_PASSIVES_SMD_0201_12PF';
   end_pin;
   body
     PART_NAME='C_1';
-    JEDEC_TYPE='passives_smd_0201';
+    JEDEC_TYPE='passives_nsmd_0201';
     VALUE='12pF';
   end_body;
 end_primitive;
-primitive 'C_1_PASSIVES_SMD_0201_0.47UF';
+primitive 'C_1_PASSIVES_NSMD_0201_0.47UF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -41,11 +41,11 @@ primitive 'C_1_PASSIVES_SMD_0201_0.47UF';
   end_pin;
   body
     PART_NAME='C_1';
-    JEDEC_TYPE='passives_smd_0201';
+    JEDEC_TYPE='passives_nsmd_0201';
     VALUE='0.47uF';
   end_body;
 end_primitive;
-primitive 'C_1_PASSIVES_SMD_0201_100PF';
+primitive 'C_1_PASSIVES_NSMD_0201_100PF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -56,11 +56,11 @@ primitive 'C_1_PASSIVES_SMD_0201_100PF';
   end_pin;
   body
     PART_NAME='C_1';
-    JEDEC_TYPE='passives_smd_0201';
+    JEDEC_TYPE='passives_nsmd_0201';
     VALUE='100pF';
   end_body;
 end_primitive;
-primitive 'C_1_PASSIVES_SMD_0201_0.1UF';
+primitive 'C_1_PASSIVES_NSMD_0201_0.1UF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -71,11 +71,11 @@ primitive 'C_1_PASSIVES_SMD_0201_0.1UF';
   end_pin;
   body
     PART_NAME='C_1';
-    JEDEC_TYPE='passives_smd_0201';
+    JEDEC_TYPE='passives_nsmd_0201';
     VALUE='0.1uF';
   end_body;
 end_primitive;
-primitive 'C_1_PASSIVES_SMD_0201_470PF';
+primitive 'C_1_PASSIVES_NSMD_0201_470PF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -86,11 +86,11 @@ primitive 'C_1_PASSIVES_SMD_0201_470PF';
   end_pin;
   body
     PART_NAME='C_1';
-    JEDEC_TYPE='passives_smd_0201';
+    JEDEC_TYPE='passives_nsmd_0201';
     VALUE='470pF';
   end_body;
 end_primitive;
-primitive 'C_1_PASSIVES_SMD_0201_1UF';
+primitive 'C_1_PASSIVES_NSMD_0201_1UF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -101,7 +101,7 @@ primitive 'C_1_PASSIVES_SMD_0201_1UF';
   end_pin;
   body
     PART_NAME='C_1';
-    JEDEC_TYPE='passives_smd_0201';
+    JEDEC_TYPE='passives_nsmd_0201';
     VALUE='1uF';
   end_body;
 end_primitive;
@@ -186,7 +186,7 @@ primitive 'CONNECTOR_SMA_GENERAL_CONNECTOR';
     VALUE='SMA';
   end_body;
 end_primitive;
-primitive 'L_PASSIVES_SMD_0603_10UH';
+primitive 'L_PASSIVES_NSMD_0603_10UH';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -197,8 +197,23 @@ primitive 'L_PASSIVES_SMD_0603_10UH';
   end_pin;
   body
     PART_NAME='L';
-    JEDEC_TYPE='passives_smd_0603';
+    JEDEC_TYPE='passives_nsmd_0603';
     VALUE='10uH';
+  end_body;
+end_primitive;
+primitive 'L_PASSIVES_NSMD_0603_56NH';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='L';
+    JEDEC_TYPE='passives_nsmd_0603';
+    VALUE='56nH';
   end_body;
 end_primitive;
 primitive 'RF_TRANSCEIVER_S2LP_DIE_DIE_STM';
@@ -381,7 +396,7 @@ primitive 'RF_TRANSCEIVER_S2LP_DIE_DIE_STM';
     VALUE='S2-LP';
   end_body;
 end_primitive;
-primitive 'SIP_IOT_XTAL_0_CRYSTAL_FA_128_4';
+primitive 'SIP_IOT_XTAL_0_PASSIVES_XTAL_PK';
   pin
     'XIN':
       PIN_NUMBER='(1)';
@@ -398,7 +413,7 @@ primitive 'SIP_IOT_XTAL_0_CRYSTAL_FA_128_4';
   end_pin;
   body
     PART_NAME='sip_iot_XTAL_0';
-    JEDEC_TYPE='CRYSTAL_FA_128_48M';
+    JEDEC_TYPE='passives_xtal_pkg_fa128xx';
     VALUE='50MHz';
   end_body;
 end_primitive;

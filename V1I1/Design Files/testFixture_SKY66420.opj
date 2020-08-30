@@ -1,0 +1,105 @@
+(ExpressProject "testFixture_SKY66420"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\testfixture_sky66420.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory"
+       "D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Netlist_tstfx_sky66420")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Output Board File"
+       "D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Layout\tstFixture_SKY66420.mcm")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "APD")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "TRUE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    ("Allegro Netlist Input Board File"
+       "D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\Layout\tstFixture_SKY66420.mcm")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80"))
+  (Folder "Outputs"
+    (File ".\netlist_tstfx_sky66420\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\netlist_tstfx_sky66420\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\netlist_tstfx_sky66420\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (connector_sma_general
+      (FullPartName "connector_sma_general.Normal")
+      (LibraryName "D:\WORK\CADENCE_LIB\SCH_CAPTURE_LIB\HT_LIB.OLB")
+      (DeviceIndex "0"))
+    (connector_pin_jumper_2x3
+      (FullPartName "connector_pin_jumper_2x3.Normal")
+      (LibraryName "D:\WORK\CADENCE_LIB\SCH_CAPTURE_LIB\HT_LIB.OLB")
+      (DeviceIndex "0"))
+    (connector_pin_header_1x4
+      (FullPartName "connector_pin_header_1x4.Normal")
+      (LibraryName "D:\WORK\CADENCE_LIB\SCH_CAPTURE_LIB\HT_LIB.OLB")
+      (DeviceIndex "0"))
+    (connector_pin_header_1x2
+      (FullPartName "connector_pin_header_1x2.Normal")
+      (LibraryName "D:\WORK\CADENCE_LIB\SCH_CAPTURE_LIB\HT_LIB.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "Felipe")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\testfixture_sky66420.dsn")
+      (Path "Design Resources"
+         "D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\testfixture_sky66420.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "D:\Work\SiP Sigfox\Hardware\Work\designFlow_RFmodeling\V1I1\Design Files\testfixture_sky66420.dsn"
+         "SCHEMATIC1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 221"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 886 26 286")
+        (Scroll "-117 0")
+        (Zoom "50")
+        (Occurrence "/"))
+      (Path
+         "D:\WORK\SIP SIGFOX\HARDWARE\WORK\DESIGNFLOW_RFMODELING\V1I1\DESIGN FILES\TESTFIXTURE_SKY66420.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (ISPCBBASICLICENSE "false"))

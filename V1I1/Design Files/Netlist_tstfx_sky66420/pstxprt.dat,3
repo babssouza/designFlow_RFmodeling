@@ -1,0 +1,320 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Aug-30-2020 at 16:54:33 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='TESTFIXTURE_SKY66420';
+ POST_TIME='Oct 29 2018 20:45:38';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C_1_PASSIVES_NSMD_0402_4.7UF':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS716793@SIP_IOT.C_1.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins716793@sip_iot.\c_1.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins716793@sip_iot.\c_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'C_1_PASSIVES_NSMD_0201_2.4PF':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS710840@SIP_IOT.C_1.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins710840@sip_iot.\c_1.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins710840@sip_iot.\c_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'C_1_PASSIVES_NSMD_0201_33PF':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS710576@SIP_IOT.C_1.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins710576@sip_iot.\c_1.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins710576@sip_iot.\c_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C_1_PASSIVES_NSMD_0402_4.7UF':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS717466@SIP_IOT.C_1.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins717466@sip_iot.\c_1.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins717466@sip_iot.\c_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C_1_PASSIVES_NSMD_0201_1NF':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS710592@SIP_IOT.C_1.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins710592@sip_iot.\c_1.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins710592@sip_iot.\c_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'C_1_PASSIVES_NSMD_0201_10NF':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS707682@SIP_IOT.C_1.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins707682@sip_iot.\c_1.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins707682@sip_iot.\c_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'C_1_PASSIVES_NSMD_0201_100PF':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS707698@SIP_IOT.C_1.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins707698@sip_iot.\c_1.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins707698@sip_iot.\c_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'C_1_PASSIVES_NSMD_0201_10NF':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS710700@SIP_IOT.C_1.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins710700@sip_iot.\c_1.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins710700@sip_iot.\c_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'C_1_PASSIVES_NSMD_0201_100PF':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS710716@SIP_IOT.C_1.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins710716@sip_iot.\c_1.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins710716@sip_iot.\c_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'C_1_PASSIVES_NSMD_0201_10PF':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS710824@SIP_IOT.C_1.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins710824@sip_iot.\c_1.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins710824@sip_iot.\c_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CN1 'CONNECTOR_PIN_HEADER_1X2_CONNEC':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS708907@HT_LIB.CONNECTOR_PIN_HEADER_1X2.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins708907@ht_lib.\connector_pin_header_1x2.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins708907@ht_lib.\connector_pin_header_1x2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CN2 'CONNECTOR_PIN_HEADER_1X2_CONNEC':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS713341@HT_LIB.CONNECTOR_PIN_HEADER_1X2.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins713341@ht_lib.\connector_pin_header_1x2.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins713341@ht_lib.\connector_pin_header_1x2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CN3 'CONNECTOR_SMA_GENERAL_CONNECTOR':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS711625@HT_LIB.CONNECTOR_SMA_GENERAL.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins711625@ht_lib.\connector_sma_general.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins711625@ht_lib.\connector_sma_general.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CN4 'CONNECTOR_SMA_GENERAL_CONNECTOR':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS711607@HT_LIB.CONNECTOR_SMA_GENERAL.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins711607@ht_lib.\connector_sma_general.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins711607@ht_lib.\connector_sma_general.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CN5 'CONNECTOR_SMA_GENERAL_CONNECTOR':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS711587@HT_LIB.CONNECTOR_SMA_GENERAL.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins711587@ht_lib.\connector_sma_general.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins711587@ht_lib.\connector_sma_general.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CN6 'CONNECTOR_SMA_GENERAL_CONNECTOR':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS711643@HT_LIB.CONNECTOR_SMA_GENERAL.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins711643@ht_lib.\connector_sma_general.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins711643@ht_lib.\connector_sma_general.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CN7 'CONNECTOR_SMA_GENERAL_CONNECTOR':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS711661@HT_LIB.CONNECTOR_SMA_GENERAL.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins711661@ht_lib.\connector_sma_general.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins711661@ht_lib.\connector_sma_general.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CN8 'CONNECTOR_PIN_HEADER_1X2_CONNEC':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS715902@HT_LIB.CONNECTOR_PIN_HEADER_1X2.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins715902@ht_lib.\connector_pin_header_1x2.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins715902@ht_lib.\connector_pin_header_1x2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CONNECTOR_PIN_JUMPER_2X3_CONNEC':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS709336@HT_LIB.CONNECTOR_PIN_JUMPER_2X3.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins709336@ht_lib.\connector_pin_jumper_2x3.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins709336@ht_lib.\connector_pin_jumper_2x3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'L_PASSIVES_NSMD_0201_0.6NH':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS707714@ANALOG.L.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins707714@analog.\l.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins707714@analog.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 'L_PASSIVES_NSMD_0402_6.8NH':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS710680@ANALOG.L.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins710680@analog.\l.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins710680@analog.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L3 'L_PASSIVES_NSMD_0201_0.6NH':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS710732@ANALOG.L.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins710732@analog.\l.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins710732@analog.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L4 'L_PASSIVES_NSMD_0402_2.7NH':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS710756@ANALOG.L.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins710756@analog.\l.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins710756@analog.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L5 'L_PASSIVES_NSMD_0402_7.5NH':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS710772@ANALOG.L.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins710772@analog.\l.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins710772@analog.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_PASSIVES_NSMD_0402_1M':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS709124@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins709124@analog.\r.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins709124@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_PASSIVES_NSMD_0402_1M':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS709158@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins709158@analog.\r.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins709158@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_PASSIVES_NSMD_0402_1M':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS709192@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins709192@analog.\r.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins709192@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'FERRITEBREAD_PASSIVES_NSMD_0402':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS707606@SIP_IOT.FERRITEBREAD.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins707606@sip_iot.\ferritebread.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins707606@sip_iot.\ferritebread.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'FERRITEBREAD_PASSIVES_NSMD_0402':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS710624@SIP_IOT.FERRITEBREAD.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins710624@sip_iot.\ferritebread.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins710624@sip_iot.\ferritebread.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'SKY66420_RF_SKY66420_STD_SKY664':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS707842@SIP_IOT.SKY66420.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins707842@sip_iot.\sky66420.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins707842@sip_iot.\sky66420.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'SKY66420_RF_SKY66420_STD_SKY664':;
+
+SECTION_NUMBER 1
+ '@TESTFIXTURE_SKY66420.SCHEMATIC1(SCH_1):INS710856@SIP_IOT.SKY66420.NORMAL(CHIPS)':
+ C_PATH='@testfixture_sky66420.schematic1(sch_1):ins710856@sip_iot.\sky66420.normal\(chips)',
+ P_PATH='@testfixture_sky66420.schematic1(sch_1):page1_ins710856@sip_iot.\sky66420.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

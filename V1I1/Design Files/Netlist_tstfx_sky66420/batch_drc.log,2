@@ -2,9 +2,9 @@
 (                                                                     )
 (    DRC Update                                                       )
 (                                                                     )
-(    Drawing          : tstFixture_S2-LP.mcm                          )
+(    Drawing          : tstFixture_SKY66420.mcm                       )
 (    Software Version : 17.2S049                                      )
-(    Date/Time        : Sat Aug 29 00:48:15 2020                      )
+(    Date/Time        : Sun Aug 30 16:33:59 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  93
+ ..... Total number of DRC errors  2
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************
